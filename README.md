@@ -1,7 +1,3 @@
-# 10 AI Data Science Datasets
-
-Welcome to the Business Science University practice workspace. This project bundles ten curated datasets and accompanying analyses to help you develop portfolio-ready data science projects in both R and Python. Each dataset folder includes a ready-to-run `analysis.py` script that you can execute cell-by-cell (Shift+Enter in VS Code’s Python Interactive window) or as a standard Python script.
-
 ## Why These Datasets Matter
 
 - **Diverse domains:** finance, geospatial, marketing, customer analytics, energy, and more.
@@ -33,7 +29,7 @@ Welcome to the Business Science University practice workspace. This project bund
 
 - To activate the environment in future sessions:
   ```bash
-  conda activate ai-datasets
+  conda activate ai-projects
   ```
 - If you add new packages during your explorations, capture them in a `requirements.txt` or `environment.yml` so classmates can reproduce your work.
 
@@ -49,23 +45,9 @@ Each dataset folder contains:
   - **Step-by-Step Analysis** – modular, executable blocks ready for modification.
   - **Conclusions** – prompts to document findings and next steps.
 
-Use the provided scripts as a starting point:
-
-1. Duplicate an analysis file to a new notebook or script (`your_name_project.ipynb`).
-2. Extend the analysis with your own models, visualizations, and narratives.
-3. Export charts, dashboards, or written summaries into the `analysis_outputs/` subfolders.
-4. Document your work in a blog post, portfolio site, or README extension to showcase your process and results.
-
 ## Getting Started Fast
 
 - **Need inspiration?** Start with `dataset_01_stock_returns` or `dataset_09_iphone_sales` for quick wins; they feature tidy tabular data and ready-to-use visualizations.
 - **Want to dive into spatial analytics?** Head to `dataset_03_geospatial` and explore the Folium map generation—swap in your own basemaps or clustering techniques.
 - **Interested in text analytics?** `dataset_05_twitter` and `dataset_08_customer_survey` contain rich textual fields ripe for NLP, topic modeling, or sentiment classification.
 
-## Need Help?
-
-- Review the comments embedded in each `analysis.py` for step-wise guidance.
-- Visit the Business Science University Learning Labs for deeper dives into similar projects.
-- Reach out to classmates or mentors, sharing your updated scripts and outputs for feedback.
-
-Happy analyzing, and remember to turn your findings into compelling portfolio stories!
